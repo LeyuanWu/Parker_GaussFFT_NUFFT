@@ -60,12 +60,12 @@ _______________________________________
 - Example 1:
     - Sphere_Icosahedron_Const_VgT.m  ---- M-file to calculate the "constant sphere" model
 
-***Numerical results of example 1 are summarized in Figure 4, Figure 5 and Table 2 (Upper half)***
+*Numerical results of example 1 are summarized in Figure 4, Figure 5 and Table 2 (Upper half)*
 
 - Example 2:
     - Sphere_Icosahedron_Variable_RadialLinear_VgT.m ---- M-file to calculate the "variable sphere" model
 
-***Numerical results of example 2 are summarized in Table 2 (Lower half)***
+*Numerical results of example 2 are summarized in Table 2 (Lower half)*
 
 - Example 3:
     - EROS_Const_Werner_GEEC_Fourier_VgT.m  ---- M-file to calculate the "constant EROS" model
@@ -73,7 +73,7 @@ _______________________________________
         - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_VgT_Werner.mat  ---- mat-file containing the VecWerSch results
         - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_gT_Saraswati.mat ---- mat-file containing the GEEC forward results
 
-***Numerical results of example 3 are summarized in Figure 7, Figure 8 and Table 3 (Upper half)***
+*Numerical results of example 3 are summarized in Figure 7, Figure 8 and Table 3 (Upper half)*
 
 - Example 4:
     - Bennu_Variable_RenZY_Fourier_gT.m ---- M-file to calculate the " variable Bennu" model
@@ -82,15 +82,15 @@ _______________________________________
         - Bennus49152_pq1.2_1432834.ele   ---- element list of the tetrahedral mesh representation of the Bennu model
         - Bennu_Variable_25350_49152_z0m0d28_dx0d01_dy0d01_gT_RenZY.mat    ---- mat-file containing the GraPly results
 
-***Numerical results of example 4 are summarized in Table 3 (Lower half)***
+*Numerical results of example 4 are summarized in Table 3 (Lower half)*
 
 - Example 5:
-    - /SRTMv4d1_Werner_PrismSum_Fourier_VgT.m ---- M-file to calculate the " constant DEM" model
+    - SRTMv4d1_Werner_PrismSum_Fourier_VgT.m ---- M-file to calculate the " constant DEM" model
         - srtm_54_07.tif   ---- .tif SRTM v4.1 DEM data
         - srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_Werner.mat    ---- mat-file containing the VecWerSch results
         - srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_PrismSum.mat  ---- mat-file containing the Prism-Summation results
 
-***Numerical results of example 5 are summarized in Figure 11, Figure 12 and Table 4***
+*Numerical results of example 5 are summarized in Figure 11, Figure 12 and Table 4*
 _______________________________________
 ## Part 4: Other related data and code:
 
