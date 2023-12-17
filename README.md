@@ -67,9 +67,9 @@ Numerical results of example 2 are summarized in Table 2 (Lower half)
 
 - Example 3: <br>
     - EROS_Const_Werner_GEEC_Fourier_VgT.m  ---- M-file to calculate the "constant EROS" model <br>
-          - EROS.mat   ---- mat-file containing the vertices and faces of the EROS model <br>
-          - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_VgT_Werner.mat  ---- mat-file containing the VecWerSch results <br>
-          - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_gT_Saraswati.mat ---- mat-file containing the GEEC forward results <br>
+        - EROS.mat   ---- mat-file containing the vertices and faces of the EROS model <br>
+        - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_VgT_Werner.mat  ---- mat-file containing the VecWerSch results <br>
+        - EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_gT_Saraswati.mat ---- mat-file containing the GEEC forward results <br>
 Numerical results of example 3 are summarized in Figure 7, Figure 8 and Table 3 (Upper half)
 
 - Example 4: <br>
