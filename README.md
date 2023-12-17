@@ -55,60 +55,56 @@ _______________________________________
 _______________________________________
 ## Part 3: Example code file list
 
-List of M-files and related .mat data files to carry out the numerical examples in the manuscript.
+*List of M-files and related .mat data files to carry out the numerical examples in the manuscript.*
 
-_______________________________________
-Example 1:
-    |--> Sphere_Icosahedron_Const_VgT.m  ---- M-file to calculate the "constant sphere" model
+Example 1: <br>
+    |--> Sphere_Icosahedron_Const_VgT.m  ---- M-file to calculate the "constant sphere" model <br>
 Numerical results of example 1 are summarized in Figure 4, Figure 5 and Table 2 (Upper half)
-_______________________________________
-Example 2:
-    |--> Sphere_Icosahedron_Variable_RadialLinear_VgT.m ---- M-file to calculate the "variable sphere" model
+
+Example 2: <br>
+    |--> Sphere_Icosahedron_Variable_RadialLinear_VgT.m ---- M-file to calculate the "variable sphere" model <br>
 Numerical results of example 2 are summarized in Table 2 (Lower half)
-_______________________________________
-Example 3:
-    |--> EROS_Const_Werner_GEEC_Fourier_VgT.m  ---- M-file to calculate the "constant EROS" model
-          |--> EROS.mat   ---- mat-file containing the vertices and faces of the EROS model
-          |--> EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_VgT_Werner.mat  ---- mat-file containing the VecWerSch results
-          |--> EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_gT_Saraswati.mat ---- mat-file containing the GEEC forward results
+
+Example 3: <br>
+    |--> EROS_Const_Werner_GEEC_Fourier_VgT.m  ---- M-file to calculate the "constant EROS" model <br>
+          |--> EROS.mat   ---- mat-file containing the vertices and faces of the EROS model <br>
+          |--> EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_VgT_Werner.mat  ---- mat-file containing the VecWerSch results <br>
+          |--> EROS_Const2670_11272_22540_z0m6d3_dx0d1_dy0d1_gT_Saraswati.mat ---- mat-file containing the GEEC forward results <br>
 Numerical results of example 3 are summarized in Figure 7, Figure 8 and Table 3 (Upper half)
-_______________________________________
-Example 4:
-    |--> /Bennu_Variable_RenZY_Fourier_gT.m ---- M-file to calculate the " variable Bennu" model
-          |--> Bennu.mat   ---- mat-file containing the vertices and faces of the Bennu model
-          |--> Bennus49152_pq1.2_295272.node   ---- node list of the tetrahedral mesh representation of the Bennu model
-          |--> Bennus49152_pq1.2_1432834.ele     ---- element list of the tetrahedral mesh representation of the Bennu model
-          |--> Bennu_Variable_25350_49152_z0m0d28_dx0d01_dy0d01_gT_RenZY.mat    ---- mat-file containing the GraPly results
+
+Example 4: <br>
+    |--> /Bennu_Variable_RenZY_Fourier_gT.m ---- M-file to calculate the " variable Bennu" model <br>
+          |--> Bennu.mat   ---- mat-file containing the vertices and faces of the Bennu model <br>
+          |--> Bennus49152_pq1.2_295272.node   ---- node list of the tetrahedral mesh representation of the Bennu model <br>
+          |--> Bennus49152_pq1.2_1432834.ele     ---- element list of the tetrahedral mesh representation of the Bennu model <br>
+          |--> Bennu_Variable_25350_49152_z0m0d28_dx0d01_dy0d01_gT_RenZY.mat    ---- mat-file containing the GraPly results <br>
 Numerical results of example 4 are summarized in Table 3 (Lower half)
-_______________________________________
-Example 5:
-    |--> /SRTMv4d1_Werner_PrismSum_Fourier_VgT.m ---- M-file to calculate the " constant DEM" model
-          |--> srtm_54_07.tif   ---- .tif SRTM v4.1 DEM data 
-          |--> srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_Werner.mat      ---- mat-file containing the VecWerSch results
-          |--> srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_PrismSum.mat  ---- mat-file containing the Prism-Summation results
+
+Example 5: <br>
+    |--> /SRTMv4d1_Werner_PrismSum_Fourier_VgT.m ---- M-file to calculate the " constant DEM" model <br>
+          |--> srtm_54_07.tif   ---- .tif SRTM v4.1 DEM data  <br>
+          |--> srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_Werner.mat      ---- mat-file containing the VecWerSch results <br>
+          |--> srtm_54_07_lon_p86d0_p88d0_lat_p27d0_p29d0_ne_PrismSum.mat  ---- mat-file containing the Prism-Summation results <br>
 Numerical results of example 5 are summarized in Figure 11, Figure 12 and Table 4
 _______________________________________
 ## Part 4: Other related data and code:
 
----------------------------------------------------------
-Different polyhedral-shaped models of the asteroid 101955 Bennu are freely available at the Web site
+- Different polyhedral-shaped models of the asteroid 101955 Bennu are freely available at the Web site  <br>
 https://www.asteroidmission.org/updated-bennu-shape-model-3d-files
----------------------------------------------------------
-Multiple polyhedral models of the asteroid 433 EROS can be downloaded at 
-https://sbn.psi.edu/pds/resource/nearbrowse.html
----------------------------------------------------------
-Digital terrain data SRTM v4.1 are downloaded from http://dwtkns.com/srtm/
----------------------------------------------------------
-The CMCL NUFFT software package is freely available at the Web site https://cims.nyu.edu/cmcl/nufft/nufft.html
----------------------------------------------------------
-The FINUFFT software package is freely available at the Web site https://finufft.readthedocs.io/en/latest/
----------------------------------------------------------
-The GraPly software package is freely available at the Web site https://github.com/zhong-yy/GraPly
----------------------------------------------------------
-The GEEC software package is freely available at the Web site https://github.com/anitasaraswati/GEEC
-----------------------------------------------------------------------------------------------------------------------------
 
-_______________________________________
+- Multiple polyhedral models of the asteroid 433 EROS can be downloaded at   <br>
+https://sbn.psi.edu/pds/resource/nearbrowse.html
+
+- Digital terrain data SRTM v4.1 are downloaded from http://dwtkns.com/srtm/
+
+- The CMCL NUFFT software package is freely available at the Web site https://cims.nyu.edu/cmcl/nufft/nufft.html
+
+- The FINUFFT software package is freely available at the Web site https://finufft.readthedocs.io/en/latest/
+
+- The GraPly software package is freely available at the Web site https://github.com/zhong-yy/GraPly
+
+- The GEEC software package is freely available at the Web site https://github.com/anitasaraswati/GEEC
+______________________________________
 ## References: 
 - [1]   Leslie Greengard and June-Yub Lee, 2004, Accelerating the Nonuniform Fast Fourier Transform. SIAM Review, 46:3, 443-454
 - [2]   Lee, J.Y. and Greengard, L., 2005. The type 3 nonuniform FFT and its applications. Journal of Computational Physics, 206(1), pp.1-5.
