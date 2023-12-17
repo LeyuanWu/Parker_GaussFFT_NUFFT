@@ -59,11 +59,11 @@ _______________________________________
 
 - Example 1:
     - Sphere_Icosahedron_Const_VgT.m  ---- M-file to calculate the "constant sphere" model
-***Numerical results of example 1 are summarized in Figure 4, Figure 5 and Table 2 (Upper half)***
+|***Numerical results of example 1 are summarized in Figure 4, Figure 5 and Table 2 (Upper half)***
 
 - Example 2:
     - Sphere_Icosahedron_Variable_RadialLinear_VgT.m ---- M-file to calculate the "variable sphere" model
-***Numerical results of example 2 are summarized in Table 2 (Lower half)***
+|***Numerical results of example 2 are summarized in Table 2 (Lower half)***
 
 - Example 3:
     - EROS_Const_Werner_GEEC_Fourier_VgT.m  ---- M-file to calculate the "constant EROS" model
