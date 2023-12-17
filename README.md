@@ -9,21 +9,21 @@ This file contains data and MATLAB codes to reproduce the numerical results in t
 "Modified Parker's method for gravitational forward and inverse modeling using general polyhedral models",
 which has been submitted to Journal of Geophysical Research-Solid Earth
 
-Contact: Leyuan Wu <br>
-College of Science, Zhejiang University of Technology <br>
-Hangzhou, 310023, China <br>
-leyuanwu@zjut.edu.cn &  <br>
-leyuanwu@zju.edu.cn <br>
+- Contact: Leyuan Wu <br>
+- College of Science, Zhejiang University of Technology <br>
+- Hangzhou, 310023, China <br>
+- leyuanwu@zjut.edu.cn &  <br>
+- leyuanwu@zju.edu.cn <br>
 
 Last edited 2021-09-24
 _______________________________________
 ## Part 1: INSTALLATION
 
 The code is based on Non-Uniform Fast Fourier Transform (NUFFT) algorithms. It can be implemented using either 
-the Courant Mathematics and Computing Laboratory (CMCL) NUFFT software package, which is freely available at 
-https://cims.nyu.edu/cmcl/nufft/nufft.html
-or the Flatiron Institute Nonuniform Fast Fourier Transform (FINUFFT) software package, which is freely available at 
-https://finufft.readthedocs.io/en/latest/ 
+the Courant Mathematics and Computing Laboratory (CMCL) NUFFT software package, which is freely available at   <br>
+https://cims.nyu.edu/cmcl/nufft/nufft.html  <br>
+or the Flatiron Institute Nonuniform Fast Fourier Transform (FINUFFT) software package, which is freely available at   <br>
+https://finufft.readthedocs.io/en/latest/   <br>
 Download either of the two NUFFT packages (or both of them for comparison) and load it into your MATLAB path.
 
 ### NOTE:
@@ -36,12 +36,12 @@ longer than using the FINUFFT software package, depending on the specific model 
 _______________________________________
 ## Part 2: Source code file list
 
-List of source code files to implement the Fourier forward algorithm and neccessary numerical comparisons.
-----------------------------------------------------------------------------------------------------------------------------
-    |--> phi_xyz_PolyhedronSI_Parker.m  ---- M-file to calculate the complete gravity caused by a polyhedron with constant density
-    |--> phi_xyz_PolyhedronVI_Parker.m  ---- M-file to calculate the complete gravity caused by a polyhedron with variable density
-    |--> phi_xyz_DEMSI_Parker.m  ---- M-file to calculate the complete gravity caused by a DEM with constant density
-    |--> phi_xyz_sphere.m  ---- M-file to calculate the external complete gravity caused by a uniform sphere
+*List of source code files to implement the Fourier forward algorithm and neccessary numerical comparisons.*
+
+    - |--> phi_xyz_PolyhedronSI_Parker.m  ---- M-file to calculate the complete gravity caused by a polyhedron with constant density
+    - |--> phi_xyz_PolyhedronVI_Parker.m  ---- M-file to calculate the complete gravity caused by a polyhedron with variable density
+    - |--> phi_xyz_DEMSI_Parker.m  ---- M-file to calculate the complete gravity caused by a DEM with constant density
+    - |--> phi_xyz_sphere.m  ---- M-file to calculate the external complete gravity caused by a uniform sphere
     |--> sifft2.m  ---- M-file to calculate the 2D inverse shift FFT of a 2D spectrum F
     |--> sifft_X.m  ---- M-file to calculate the 1D inverse shift FFT along each row of a matrix F
     |--> sifft_Y.m  ---- M-file to calculate the 1D inverse shift FFT along each column of a matrix F
@@ -52,7 +52,6 @@ List of source code files to implement the Fourier forward algorithm and neccess
     |--> tetraquad.m ---- M-file to calculate the N^3 Gaussian nodes and weights for a bunch of tetrahedrons simultaneously
     |--> sta_min_max_mean_rms.m ---- M-file to calculate statistics of the numerical results compared to the reference results
     |--> myplot.m ---- M-file to draw plots with different colors, markers and line styles
-----------------------------------------------------------------------------------------------------------------------------
 
 _______________________________________
 ## Part 3: Example code file list
